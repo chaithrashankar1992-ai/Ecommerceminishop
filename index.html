@@ -1,27 +1,60 @@
-# index.html
-```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>Clothing Store - Home</title>
-<link rel="stylesheet" href="style.css">
-<script src="script.js" defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopHub - Home</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<header>
-<h1>Clothing Store</h1>
-<nav>
-<a href="index.html">Home</a>
-<a href="about.html">About</a>
-<a href="products.html">Products</a>
-<a href="payment.html">Cart</a>
-</nav>
-</header>
-<section>
-<h2>Welcome to Our Clothing Store</h2>
-<p>Trendy outfits, best quality, great prices.</p>
-</section>
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="payment.html">Payment</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home Page -->
+    <div class="hero">
+        <h1>Welcome to ShopHub</h1>
+        <p>Your one-stop destination for premium quality products</p>
+        <a href="products.html" class="btn">Shop Now</a>
+    </div>
+    
+    <div class="container">
+        <h2 style="text-align: center; color: #667eea; margin-bottom: 2rem;">Featured Products</h2>
+        <div class="products-grid">
+            <div class="product-card">
+                <div class="product-image">📱</div>
+                <div class="product-info">
+                    <h3>Smartphone Pro</h3>
+                    <p>Latest flagship with cutting-edge technology</p>
+                    <div class="price">$899</div>
+                    <a href="payment.html" class="btn">Buy Now</a>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">💻</div>
+                <div class="product-info">
+                    <h3>Laptop Ultra</h3>
+                    <p>Powerful performance for professionals</p>
+                    <div class="price">$1,299</div>
+                    <a href="payment.html" class="btn">Buy Now</a>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">🎧</div>
+                <div class="product-info">
+                    <h3>Wireless Headphones</h3>
+                    <p>Premium sound with noise cancellation</p>
+                    <div class="price">$299</div>
+                    <a href="payment.html" class="btn">Buy Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
-```
